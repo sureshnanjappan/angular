@@ -21,26 +21,12 @@ See the <live-example name="what-is-angular"></live-example> for a working examp
 
 <a id="essentials"></a>
 
-## Angular applications: The essentials
 
-This section explains the core ideas behind Angular.
-Understanding these ideas can help you design and build your applications more effectively.
 
 <a id="components"></a>
 
 ### Components
 
-Components are the building blocks that compose an application.
-A component includes a TypeScript class with a `@Component()` decorator, an HTML template, and styles.
-The `@Component()` decorator specifies the following Angular-specific information:
-
-*   A CSS selector that defines how the component is used in a template.
-    HTML elements in your template that match this selector become instances of the component.
-
-*   An HTML template that instructs Angular how to render the component
-*   An optional set of CSS styles that define the appearance of the template's HTML elements
-
-The following is a minimal Angular component.
 
 <code-example format="typescript" language="typescript" path="what-is-angular/src/app/hello-world/hello-world.component.ts"></code-example>
 
